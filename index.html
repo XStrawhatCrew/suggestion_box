@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Suggestion Box</title>
+    <script type="text/javascript" src="js/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="js/vendor/angular-route.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body ng-app="SuggestionBox" ng-controller="HomeController">
+    <h1>{{helloWorld}}</h1>
+
+    <div ng-view></div>
+    <!--    Modules -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <!--    Controllers-->
+    <script type="text/javascript" src="js/controllers/HomeController.js"></script>
+    <script type="text/javascript" src="js/controllers/SuggestionController.js"></script>
+
+    <!--    Service-->
+    <script type="text/javascript" src="js/services/SuggestionsProvider.js"></script>
+
+</html>
